@@ -4,14 +4,14 @@
  * main - print variables
  *
  * Return: 0 if sucessful
- * */
+ */
 int main(void)
 {
-	printf("Size of variable char : %d\n",sizeof(1));
-	printf("Size of variable int : %d\n",sizeof(4));
-	printf("Size of variable long int : %d\n",sizeof(4));
-	printf("Size of variable long long int : %d\n",sizeof(8));
-	printf("Size of variable float : %d\n",sizeof(4));
+	printf("Size of char data type : %d\n",sizeof(char));
+	printf("Size of int data type : %d\n",sizeof(int));
+	printf("Size of long int data type : %d\n",sizeof(int));
+	printf("Size of long long int data type : %d\n",sizeof(long long int));
+	printf("Size of float data type : %d\n",sizeof(float));
 	return (0);
 }
 
